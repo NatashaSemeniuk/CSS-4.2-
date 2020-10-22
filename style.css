@@ -1,0 +1,82 @@
+body {
+    background-color: #990909;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #e95b11;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+hr {
+    font-size: 1px;
+    width: 80px;
+    text-align: center;
+    color: gray;
+}
+
+/*all that in longing <header> is at the bottom */
+
+.menu {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+/* all that in longing <main> is at the bottom */
+
+.left {
+    background-color: #7d0909;
+    width: 700px;
+    margin-top: 2px;
+}
+
+.right {
+    background-color: #e3dddd;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.title {
+    background-color: #bdbdbd;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.article>p {
+    text-align: left;
+    margin-left: 3px;
+}
+
+.left>p {
+    color: #e95b11;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.right>p {
+    color: #000000;
+}
+
+#leftBloc {
+    margin-top: 0;
+}
+
+/* all that in longing <footer> is at the bottom */
+
+.footer {
+    color: #ffffff;
+    font-size: 20px;
+}
